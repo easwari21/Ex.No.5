@@ -8,198 +8,186 @@
 - ChatGPT
 - Gemini
 - Any LLM Based Tool
-### Step 1: Define the Two Prompt Types
-- **Naïve Prompt:** Simple, open-ended, or vague input without much direction.
-- **Basic/Refined Prompt:** Clear, detailed, and well-structured prompt that provides specific context or instructions to guide the AI.
+### Explanation:  
 
-The objective is to observe how structure and context affect AI-generated outputs.
+#### Step 1: Define the Two Prompt Types  
+- **Naïve Prompt:** Simple and unstructured. It gives the AI very little detail or instruction.  
+- **Basic Prompt:** More clear and detailed. It gives proper instructions, role, and structure to guide the AI.  
 
----
-
-### Step 2: Prepare Multiple Test Scenarios
-Choose various real-world use cases such as:
-- Creative writing  
-- Factual explanation  
-- Professional advice  
-- Concept summarization  
-
-For each scenario, create **two prompts** (one naïve and one refined) targeting the same goal but with different levels of detail.
+The aim is to find how well the model performs when given better and clearer prompts.  
 
 ---
 
-### Step 3: Run Experiments
-1. Input the naïve prompt for each scenario and record the generated response.
-2. Input the corresponding refined prompt and record that response.
-3. Evaluate both outputs in terms of **Quality**, **Accuracy**, and **Depth**.
+#### Step 2: Prepare Multiple Test Scenarios  
+We choose different types of tasks like:  
+- Writing a short story  
+- Explaining a factual question  
+- Giving advice or recommendations  
+- Summarizing a topic  
+
+For each scenario, two prompts are created — one naïve and one basic.  
 
 ---
 
-## OUTPUT:
-
-The experiment compared AI responses across **four different scenarios** to determine how prompt clarity affects performance.
+#### Step 3: Run the Experiments  
+1. Enter the naïve prompt in ChatGPT and record the output.  
+2. Enter the basic prompt and record that output.  
+3. Compare both outputs based on quality, accuracy, and depth.  
 
 ---
 
-### **Scenario 1: Creative Story Generation**
+## OUTPUT  
+
+The test was done with four scenarios. Each one compared the difference between simple and structured prompts.
+
+---
+
+### Scenario 1: Creative Story  
 
 **Naïve Prompt:**  
-> "Write a story about an alien planet."
+“Write a story about an alien planet.”  
 
 **Response:**  
-Produced a generic plot with predictable alien and spaceship elements.
+A very simple story with common ideas like aliens and spaceships.  
 
 **Analysis:**  
-- **Quality:** Low (Common tropes, repetitive vocabulary)  
-- **Depth:** Low (Lacked world-building and character development)
+- Quality: Low  
+- Depth: Low  
 
 **Basic Prompt:**  
-> "Act as a science-fiction author. Write a 4-paragraph story set on the ocean planet *Thalora*, where an explorer discovers intelligent aquatic life. Maintain a tone of wonder and scientific realism."
+“Write a short story about a scientist who discovers intelligent sea creatures on the planet Thalora. Use a tone of mystery and scientific curiosity.”  
 
 **Response:**  
-Delivered a focused narrative with emotional and descriptive depth, exploring the discovery scientifically and narratively.
+A better story with clear setting, characters, and emotions.  
 
 **Analysis:**  
-- **Quality:** High (Creative and immersive)  
-- **Depth:** High (Strong characterization and theme)
-
-**Insight:**  
-Structured context leads to creative diversity and deeper storytelling.
+- Quality: High  
+- Depth: High  
 
 ---
 
-### **Scenario 2: Answering a Factual Question**
+### Scenario 2: Factual Question  
 
 **Naïve Prompt:**  
-> "What is climate change?"
+“What is climate change?”  
 
 **Response:**  
-Provided a generic explanation of temperature rise and pollution causes.
+A basic answer describing global warming and pollution.  
 
 **Analysis:**  
-- **Accuracy:** Medium  
-- **Depth:** Low (Lacked technical clarity)
+- Accuracy: Medium  
+- Depth: Low  
 
 **Basic Prompt:**  
-> "Explain climate change as if you are a university professor teaching environmental science. Focus on greenhouse gas effects and human-induced atmospheric changes. Limit to 200 words."
+“Explain climate change in 200 words for a school science report. Focus on greenhouse gases and human causes.”  
 
 **Response:**  
-A detailed, academic explanation describing mechanisms, data, and long-term impacts.
+A detailed and clear answer with correct information.  
 
 **Analysis:**  
-- **Accuracy:** High  
-- **Depth:** High  
-- **Tone:** Appropriate for educational context
-
-**Insight:**  
-Persona-based prompts ensure domain-specific accuracy and professional tone.
+- Accuracy: High  
+- Depth: High  
 
 ---
 
-### **Scenario 3: Providing Advice or Recommendations**
+### Scenario 3: Advice or Recommendation  
 
 **Naïve Prompt:**  
-> "How can I stay healthy?"
+“How can I stay healthy?”  
 
 **Response:**  
-Generic suggestions like “eat vegetables” and “exercise regularly.”
+Very general suggestions like eating well and doing exercise.  
 
 **Analysis:**  
-- **Quality:** Low  
-- **Usefulness:** Limited  
+- Quality: Low  
+- Usefulness: Low  
 
 **Basic Prompt:**  
-> "Act as a certified nutritionist. Give three personalized tips for maintaining good health for a 25-year-old software engineer who works long hours and has a sedentary lifestyle. Present as a numbered list."
+“Act as a nutrition expert. Suggest 3 health tips for a college student who spends long hours studying and using a laptop.”  
 
 **Response:**  
-Detailed, practical suggestions like ergonomic posture correction, balanced meals for desk workers, and micro-exercise routines.
+Gave helpful and practical tips about posture, food, and short exercises.  
 
 **Analysis:**  
-- **Quality:** High  
-- **Relevance:** High  
-- **Depth:** Medium–High  
-
-**Insight:**  
-Including user context converts vague advice into actionable guidance.
+- Quality: High  
+- Usefulness: High  
 
 ---
 
-### **Scenario 4: Summarizing a Concept**
+### Scenario 4: Summarizing a Concept  
 
 **Naïve Prompt:**  
-> "Explain Artificial Intelligence."
+“Explain Artificial Intelligence.”  
 
 **Response:**  
-A broad overview with no depth or structure.
+A simple and broad answer with little detail.  
 
 **Analysis:**  
-- **Accuracy:** Medium  
-- **Depth:** Low  
+- Accuracy: Medium  
+- Depth: Low  
 
 **Basic Prompt:**  
-> "Summarize the concept of Artificial Intelligence for business executives unfamiliar with technology. Use under 150 words, focus on its impact on productivity, automation, and decision-making."
+“Summarize Artificial Intelligence in 150 words for business people. Focus on how it helps in automation and decision-making.”  
 
 **Response:**  
-Concise, business-oriented explanation linking AI principles to workplace efficiency.
+A short and focused explanation written in an easy and clear way.  
 
 **Analysis:**  
-- **Accuracy:** High  
-- **Depth:** High  
-- **Tone:** Professional and audience-appropriate  
-
-**Insight:**  
-Targeting audience and word constraints improves clarity and relevance.
+- Accuracy: High  
+- Depth: High  
 
 ---
 
-## OVERALL ANALYSIS OF PROMPT CLARITY
+## Overall Analysis of Prompt Clarity  
 
-### **1. Impact on Quality**
-**Result:** Refined prompts consistently generated high-quality, contextually rich responses.  
-**Reason:** Structured context guided the model toward precise vocabulary, tone, and relevance.
+**1. Impact on Quality:**  
+Basic prompts always gave better-quality responses because they were clear and focused.  
 
----
+**2. Impact on Accuracy:**  
+Refined prompts produced more correct and useful answers that matched the question better.  
 
-### **2. Impact on Accuracy**
-**Result:** Basic prompts improved factual and situational accuracy.  
-**Reason:** Clear instructions limit the model’s tendency to generalize or drift off-topic.
+**3. Impact on Depth:**  
+Clear prompts helped the AI explain in more detail and stay on topic.  
 
----
-
-### **3. Impact on Depth**
-**Result:** Refined prompts achieved targeted analytical depth.  
-**Reason:** Added constraints (role, tone, structure) forced the model to focus on core ideas.
+**4. Consistency:**  
+Basic prompts worked better in all situations. Naïve prompts were only good for very simple questions.  
 
 ---
 
-### **4. Consistency**
-**Observation:** Basic prompts delivered consistently superior results across all tasks.  
-**Naïve prompts** only worked equally well for simple, low-stakes queries like quick definitions.
+## How to Write a Good Prompt  
+
+To get the best results, a good prompt should include:  
+- **Role or Persona:** Who the AI should act as.  
+- **Task:** What exactly to do.  
+- **Context:** Background or data needed.  
+- **Format:** How the output should look.  
+- **Tone:** The style of writing (formal, friendly, etc.).  
 
 ---
 
-## HOW TO STRUCTURE PROMPTS FOR OPTIMAL RESULTS
+## Result:  
 
-Use the **C.A.F.T.R. Framework** for designing refined prompts:
-
-| Component | Description | Example |
-|------------|--------------|----------|
-| **C** | **Context** – Include relevant details | “For a college student studying AI...” |
-| **A** | **Audience** – Specify who the response is for | “For a business audience...” |
-| **F** | **Format** – Define the desired structure | “Use bullet points or a table” |
-| **T** | **Tone** – Set tone and style | “Formal, encouraging, or narrative” |
-| **R** | **Role** – Assign a persona | “Act as a professor/doctor/consultant” |
+From the experiment, it is proved that prompt design plays a big role in AI output.  
+Structured prompts give better quality, more accurate, and detailed results.  
+Simple prompts are useful only when quick or general answers are needed.  
 
 ---
+## OUTPUT
 
-## RESULT:
+The experiment was carried out using four different scenarios to study how prompt clarity affects the quality, accuracy, and depth of AI responses.
 
-The experiment confirms that **prompt engineering** plays a major role in optimizing AI responses.
+| Scenario No | Task Type | Naïve Prompt Result | Basic Prompt Result | Observation |
+|--------------|------------|---------------------|----------------------|--------------|
+| 1 | Creative Story | Simple, repetitive ideas with no focus | Clear storyline with emotions and unique setting | Basic prompt gave a better and detailed story |
+| 2 | Factual Question | Gave a general definition | Focused answer with correct details | Refined prompt improved accuracy and structure |
+| 3 | Giving Advice | Common and general tips | Personalized, practical advice with reasoning | Refined prompt produced more helpful output |
+| 4 | Summarization | Too broad and unclear | Well-structured and audience-specific summary | Clear prompts improved depth and relevance |
 
-### **Key Findings:**
-- **Structure is Essential:** Clear frameworks improve output quality.  
-- **Constraints Help Focus:** Limiting format, tone, or scope produces more relevant answers.  
-- **Persona Power:** Role-based prompts guide the AI to adopt professional tone and expertise.  
+### Observation:
+- Basic prompts gave more structured and meaningful outputs.
+- Naïve prompts were generic and less detailed.
+- The clarity of the prompt directly improved the model’s response in all cases.
 
-# OUTPUT
-
-# RESULT: The prompt for the above said problem executed successfully
+---
+# RESULT: 
+The prompt for the above said problem executed successfully
