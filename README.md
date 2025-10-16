@@ -11,12 +11,12 @@
 ### Explanation:  
 
 #### Step 1: Define the Two Prompt Types  
-- **Naïve Prompt:** Simple and unstructured. It gives the AI very little detail or instruction.  
+- **Naive Prompt:** Simple and unstructured. It gives the AI very little detail or instruction.  
 - **Basic Prompt:** More clear and detailed. It gives proper instructions, role, and structure to guide the AI.  
 
 The aim is to find how well the model performs when given better and clearer prompts.  
 
----
+
 
 #### Step 2: Prepare Multiple Test Scenarios  
 We choose different types of tasks like:  
@@ -25,26 +25,20 @@ We choose different types of tasks like:
 - Giving advice or recommendations  
 - Summarizing a topic  
 
-For each scenario, two prompts are created — one naïve and one basic.  
+For each scenario, two prompts are created,one naive and one basic.  
 
----
+
 
 #### Step 3: Run the Experiments  
 1. Enter the naïve prompt in ChatGPT and record the output.  
 2. Enter the basic prompt and record that output.  
 3. Compare both outputs based on quality, accuracy, and depth.  
 
----
-
-## OUTPUT  
-
 The test was done with four scenarios. Each one compared the difference between simple and structured prompts.
-
----
 
 ### Scenario 1: Creative Story  
 
-**Naïve Prompt:**  
+**Naive Prompt:**  
 “Write a story about an alien planet.”  
 
 **Response:**  
@@ -62,9 +56,7 @@ A better story with clear setting, characters, and emotions.
 
 **Analysis:**  
 - Quality: High  
-- Depth: High  
-
----
+- Depth: High
 
 ### Scenario 2: Factual Question  
 
@@ -86,9 +78,7 @@ A detailed and clear answer with correct information.
 
 **Analysis:**  
 - Accuracy: High  
-- Depth: High  
-
----
+- Depth: High 
 
 ### Scenario 3: Advice or Recommendation  
 
@@ -112,8 +102,6 @@ Gave helpful and practical tips about posture, food, and short exercises.
 - Quality: High  
 - Usefulness: High  
 
----
-
 ### Scenario 4: Summarizing a Concept  
 
 **Naïve Prompt:**  
@@ -136,8 +124,6 @@ A short and focused explanation written in an easy and clear way.
 - Accuracy: High  
 - Depth: High  
 
----
-
 ## Overall Analysis of Prompt Clarity  
 
 **1. Impact on Quality:**  
@@ -152,8 +138,6 @@ Clear prompts helped the AI explain in more detail and stay on topic.
 **4. Consistency:**  
 Basic prompts worked better in all situations. Naïve prompts were only good for very simple questions.  
 
----
-
 ## How to Write a Good Prompt  
 
 To get the best results, a good prompt should include:  
@@ -163,15 +147,6 @@ To get the best results, a good prompt should include:
 - **Format:** How the output should look.  
 - **Tone:** The style of writing (formal, friendly, etc.).  
 
----
-
-## Result:  
-
-From the experiment, it is proved that prompt design plays a big role in AI output.  
-Structured prompts give better quality, more accurate, and detailed results.  
-Simple prompts are useful only when quick or general answers are needed.  
-
----
 ## OUTPUT
 
 The experiment was carried out using four different scenarios to study how prompt clarity affects the quality, accuracy, and depth of AI responses.
@@ -188,6 +163,6 @@ The experiment was carried out using four different scenarios to study how promp
 - Naïve prompts were generic and less detailed.
 - The clarity of the prompt directly improved the model’s response in all cases.
 
----
+
 # RESULT: 
 The prompt for the above said problem executed successfully
